@@ -1,0 +1,17 @@
+.Card{
+    max-width: 250px;
+    background-color: azure;
+    border: 8px  solid #AAD;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #cc0;
+}
+
+.card-img{
+    border-bottom: 1px solid blue;
+    width: 120%;
+}
+.gratis{
+    color: #AAD;
+    font-size: 18px;
+    font-style: italic;
+}

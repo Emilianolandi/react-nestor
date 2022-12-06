@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import Title from './components/Title';
 import Mascotas from './components/Mascotas';
+import Card from './components/Card';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Title/>
       <Mascotas/>
+    <Card/>
       <header className="App-header">
       <img src='img/disco-luz.jpg' alt="imag" />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
