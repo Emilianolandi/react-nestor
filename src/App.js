@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <Title/>
+      <Card/>
       <Mascotas/>
-    <Card/>
       <header className="App-header">
       <img src='img/disco-luz.jpg' alt="imag" />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}

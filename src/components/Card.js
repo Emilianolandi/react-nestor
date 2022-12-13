@@ -1,20 +1,27 @@
 import "./Card.css";
 
 export default function Card(){
-    let imagen = "images/disco-luz.jpg";
-    let titulo = "telefono celular";
-    let precio = "23662"
+    let imagen = "img/cat.jpg";
+    let titulo = "Gatito";
+    let precio = 13662;
     let envio_gratis = true;
 
     return(
         <div className="Card">
-           <img className="card-img" src={imagen} alt= ""/>
+           <img classname= "card.img"src={imagen} alt= ""/>
            <div className="card-info">
            
             <h3 className="card-info_titulo">{titulo}</h3>
             <p className="card-info_precio">${precio}</p>
-            <p className="gratis">¡Envio gratis!</p>
-
+            {precio > 20000 &&
+                <p>Ho por dios</p>
+            }
+            {envio_gratis &&
+               <p className="gratis">¡Envio gratis!</p>
+            }
+            {!envio_gratis &&
+                <p>No es gratis</p>
+            }
             </div>
             </div>
 

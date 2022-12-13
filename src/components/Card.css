@@ -1,17 +1,18 @@
 .Card{
-    max-width: 250px;
-    background-color: azure;
-    border: 8px  solid #AAD;
-    border-radius: 2px;
+    max-width: 300px;
+    background-color: rgb(230, 230, 236);
+    border: 8px  solid rgb(14, 14, 246);
+    border-radius: 15px;
     box-shadow: 0 0 2px #cc0;
 }
 
-.card-img{
+.card-imagen{
     border-bottom: 1px solid blue;
-    width: 120%;
+    width: 100%;
+   
 }
 .gratis{
-    color: #AAD;
+    color: rgb(13, 95, 34);
     font-size: 18px;
     font-style: italic;
 }
