@@ -5,13 +5,20 @@ import Card from './components/Card';
 import './App.css';
 
 function App() {
+  const numeros = [45, 78, 12, 767, 341];
   return (
     <div className="App">
-      <Title/>
+
+      {numeros.map(numero => (
+          <p>El numero es: {numero}</p>
+      ))}
+      <Title titulo = {"Hola, como va!!!!"}
+        subtitulo = {"Este es el subtitulo"}
+      />
       <Card/>
       <Mascotas/>
       <header className="App-header">
-      <img src='img/disco-luz.jpg' alt="imag" />
+      <img src='img/gatitos.jpg' alt="imag" />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Edit <code>src/App.js</code> and save to reload.
