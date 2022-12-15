@@ -1,0 +1,19 @@
+[
+    {
+        "titulo": "producto 1",
+        "imagen": "img/gatoblanco.jpg"
+        
+    }, 
+    {
+        "titulo": "Cats ",
+        "imagen":"img/gatopar.jpg"
+    }, 
+    {
+        "titulo": "Gatos callejeros",
+        "imagen":"img/gatito.jpg"
+    }, 
+    {
+        "titulo": "gatos casa",
+        "imagen": "img/gatitos.jpg"
+    }
+]

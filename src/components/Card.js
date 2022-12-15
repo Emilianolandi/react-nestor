@@ -1,17 +1,17 @@
 import "./Card.css";
 
-export default function Card(){
-    let imagen = "img/cat.jpg";
-    let titulo = "Gatito";
-    let precio = 33662;
+export default function Card({Card}) {
+    // let imagen = "img/cat.jpg";
+    //let titulo = "Gatito";
+    let precio = 13662;
     let envio_gratis = true;
 
     return(
         <div className = "Card">
-           <img className = "card.img"src={imagen} alt= ""/>
-           <div className = "card-info">
+           <img className = "Card-img"src={Card.imagen} alt= ""/>
+           <div>
            
-            <h3 className = "card-info_titulo">{titulo}</h3>
+            <h3 >{Card.titulo}</h3>
             <p className = "card-info_precio">${precio}</p>
             {precio > 20000 &&
                 <p>Ho por dios</p>
