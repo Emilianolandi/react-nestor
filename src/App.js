@@ -1,6 +1,5 @@
 import { Routes, Route} from 'react-router-dom';
 import './App.css';
-import CardWrapper from './components/CardWrapper';
 
 // Importamos las paginas y el layout
 import Home from './pages/Home';
