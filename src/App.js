@@ -23,9 +23,7 @@ function App() {
  </Route>
 </Routes>
 
-      <CardWrapper
-        titulo = {"Ofertas"}
-      />
+      
      </div>
   );
 }
